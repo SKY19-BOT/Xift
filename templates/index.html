@@ -17,6 +17,11 @@
     <h4>Time available: {{ time }} hours</h4>
     <h4>Tasks: {{ tasks }}</h4>
   {% endif %}
+{% if goals %}
+  <h2>Suggested Goals:</h2>
+  <p>{{ goals }}</p>
+{% endif %}
+
 </body>
 </html>
 
