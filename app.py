@@ -10,7 +10,7 @@ def index():
         time = request.form['time']
         tasks = request.form['tasks']
         # This is where you'll connect to OpenAI/OpenRouter
-        return render_template('index.html', mood=mood, time=time, tasks=tasks)
+return render_template('index.html', mood=mood, time=time, tasks=tasks)
         import openai
 from dotenv import load_dotenv
 
